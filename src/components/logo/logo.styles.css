@@ -1,0 +1,45 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 300px;
+    height: 100px;
+}
+
+.logo .first-layer {
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+}
+
+.logo .first-layer .remember {
+    color: white;
+    font-family: "Poppins";
+    font-weight: bolder;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.logo .first-layer .me {
+    color: #BC3A80;
+    font-family: "Poppins";
+    font-weight: bolder;
+    font-weight: 900;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.logo .second-layer {
+    display: flex;
+    flex-direction: row;
+    height: 0px;
+
+}
+.logo .second-layer .finance {
+    color: white;
+    font-family: "Poppins";
+    font-weight: bolder;
+    font-weight: 900;
+    font-size: 10px;
+    padding-left: 185px;
+}
